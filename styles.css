@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+html {
+	min-height: 100%;
+	width: 100%;
+	position: relative;
+}
+body {
+	background-color: #808000;
+	font-family: Tahoma;
+	height: 100%;
+	width: 100%;
+}
+h1 {
+	padding-left: 10%;
+	text-align: left;
+	color: #00008B;
+}
+h3 {
+	padding-right: 10%;
+	text-align: right;
+	color: #00008B;
+}
+#container {
+	width: 100%;
+	margin: 3%;
+	padding: 3%;
+	background-color: #FFF8DC;
+	color: #00008B;
+}
+form {
+	width: 30%;
+	background-color: white;
+	margin: 3%;
+	padding: 3%;
+	border-style: outset;
+	border-width: 1px 1px 3px 3px;
+	border-color: #00008B;	
+}
+#title {
+	padding: 3%;
+	margin: 3%;
+	background-color: #EEE8AA;
+	width: 100%;
+}
+#submit {
+	background-color: #00008B;
+	color: #EEE8AA;
+	border-radius: 3px;	
+}
+#map {
+	height: 150px;
+	width: 40%;
+	margin: 3%;
+	padding: 3%;
+	background-color: gray;
+	float: right;
+}
+.form-text {	
+	padding-top:3%;
+	padding-left:3%;
+}
